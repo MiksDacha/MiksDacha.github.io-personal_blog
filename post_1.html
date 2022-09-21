@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Post_1</title>
+</head>
+<body class="show-sidebar">
+<!-- <body class="no-scroll"> -->
+
+    <div class="page" id="page">
+        <!-- Header -->
+        <header class="header">
+        
+           <div class="header__left">
+              <nav class="nav">
+                 <ul class="nav__list">
+        
+                    <li class="nav__item">
+                       <a class="nav__link" href="index.html">Главная</a>
+                    </li>
+        
+                    <li class="nav__item">
+                       <a class="nav__link has-subnav" href="#">Статьи</a>
+        
+                       <ul class="subnav">
+                          <li>
+                             <a class="subnav__link" href="#">Создание сайтов</a>
+                          </li>
+                          <li>
+                             <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                          </li>   
+                          <li>
+                             <a class="subnav__link" href="#">Продвижение видео</a>
+                          </li>
+                       </ul>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="text_about.html">Обо мне</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="advertising.html">Реклама</a>
+                    </li>
+        
+                 </ul>
+              </nav>
+        
+              <button class="burger" type="button" id="sidebarToggle">
+                 <span>Открыть навигацию</span>
+              </button>
+           </div>
+        
+           <div class="header__right">
+              <nav class="nav">
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                       <a class="nav__link" href="profile.html">Профиль</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="#">Выйти</a>
+                    </li>
+                 </ul>
+              </nav>
+        
+              <form class="search" action="search.html" method="get">
+                 <input class="search__input" type="text" placeholder="Поиск по блогу">
+              </form>
+           </div>
+        
+        </header>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+           <div class="sidebar__header">
+              <img src="/assets/images/sidebar-header.jpg" alt="">
+           </div>
+           <div class="sidebar__content">
+              <div class="profile">
+                 <!-- <img class="profile__avatar" src="http://placehold.it/100x100" alt=""> -->
+                 <img class="profile__avatar" src="/assets/images/profile_avatar.jpg" alt="">
+                 <div class="profile__header">   
+                    <div class="profile__name">Дарья Васильева</div>
+                    <div class="profile__prof">блог front-end разработчика</div>
+                 </div>
+                 
+                 <ul class="social">
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank">
+                          <img src="/assets/images/social/instagram.svg" alt="Дарья Васильева Instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank">
+                          <img src="/assets/images/social/vk.svg" alt="Дарья Васильева vk">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank">
+                          <img src="/assets/images/social/telegram.svg" alt="Дарья Васильева telegram">
+                       </a>
+                    </li>
+                 </ul>
+        
+                 <div class="profile__text">
+                    <p>Front-end разработчик. Практик верстки сайтов. Созданием сайтов занимаюсь с 2019 года. Наработала более 5 000 часов в создании сайтов различной сложности.</p>
+                 </div>
+              </div>
+              <!-- profile -->
+        
+              <nav class="nav nav--mobile">
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                       <a class="nav__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link has-subnav" href="#">Статьи</a>
+                       <ul class="subnav">
+                          <li>
+                             <a class="subnav__link" href="#">Создание сайтов</a>
+                          </li>
+                          <li>
+                             <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                          </li>   
+                          <li>
+                             <a class="subnav__link" href="#">Продвижение видео</a>
+                          </li>
+                       </ul>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="text_about.html">Обо мне</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="advertising.html">Реклама</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="profile.html">Профиль</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="#">Выйти</a>
+                    </li>
+                 </ul>
+              </nav>
+              <!-- nav nav--mobile -->
+              
+           </div>
+           <!-- sidebar__content -->
+           <div class="sidebar__footer">
+              <a class="btn btn--red" href="works.html">Мои работы</a>
+              <button class="btn btn--blue" type="button" data-modal="contact-modal">Написать мне</button>
+           </div>
+        </aside>
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                <article class="post">
+                   <div class="post__actions">
+                      <a href="index.html">вернуться назад</a>
+                      <a href="#">
+                         поделиться
+                         <img class="post__actions-icon" src="assets/images/post/share .svg" alt="поделиться">
+                      </a>
+                   </div>
+                   <div class="post__header post__header--open">
+                      <h1 class="post__title post__title--margbot0">Идеальный язык для изучения</h1>
+                      <ul class="post__data">
+                         <li class="post__data-item">
+                            <time datetime="2022-03-21 14.28">21.03.2022</time>
+                         </li>
+                
+                         <li class="post__data-item">
+                            <a href="#">создание сайтов</a>
+                         </li>
+                      </ul>
+                   </div>
+                
+                   <div class="post__content">
+                      <div class="post__text ">
+                         <h3># 3 Нет «идеального» языка для изучения</h3>
+                         <p class="post__text">Меня часто спрашивают: «Какой язык программирования я должен начать изучать первым»? Существует распространенное мнение, что где-то есть идеальный язык для начинающих программистов. Некоторые утверждают, что это Python, другие говорят, что это Swift. Но я считаю что это не важно.</p>
+                
+                         <p class="post__text">Язык программирования — это просто инструмент. Он ничем не отличается от любого другого инструмента в вашей аппаратной коробке. Если вы хотите забить гвоздь, вы должны использовать молоток. Если вы хотите починить свои водопроводные трубы, вам, вероятно, понадобится гаечный ключ. Да, можно забить гвоздь, используя боковую часть гаечного ключа, и один и тот же язык программирования можно использовать для решения различных типов задач. Плотник скажет вам, что его любимый инструмент — молоток, а сантехник скажет, что это гаечный ключ, но он все еще не делает его «лучшим инструментом для починки».</p>
+                
+                         <p class="post__text">Веб-разработчик скажет вам, что JavaScript — лучший язык для начинающих. Статистик сообщит вам, что вам лучше подойдет язык программирования это R. Но, в конце концов, все, что имеет значение, это то, что вы пытаетесь сделать с помощью своего инструмента. Если вы хотите создавать приложения для iOS, то изучите Swift. Если вы хотите делать сайты, вам понадобится JavaScript. Но хорошая новость заключается в том, что основные концепции программирования: циклы, условные выражения, функции и т. Д. Все они одинаковы. Разница в основном синтаксическая. На английском языке у нас есть 'Werewolves', (Оборотни) на немецком языке — 'Werwölfe'. Это все то же самое млекопитающее, которое разрывает рубашку, которое появляется в полнолуние, просто пишется по-другому.</p>
+                
+                         <!-- <p>
+                            <img src="assets/images/post/post1_1.jpg" alt="">
+                         </p> -->
+                
+                         <!-- <pre class="post__text post__text--console">
+                            <span class="post__text post__text--print">
+                               <br>консоль в Swift:
+                               <br>print(“Hello Werewolves”)
+                               <br>консоль в Java:
+                               <br>println(“Hello Werwölfe”)
+                            </span>
+                         </pre> -->
+                
+                         <p class="post__text">Итак, сначала нужно определиться с задачей, которую вы пытаетесь выполнить, а затем выберите лучший инструмент для этой задачи.</p>
+                
+                         <p class="post__text">All rights reserved © The App Brewery 
+                         <a class="post__text" href="http://www.appbrewery.co" target="_blank">www.appbrewery.co</a>
+                         Dr. Angela Yu | Published by UMV on November 27, 2019 | Published by UMV on November 27, 2019 переведено 15 Декабря 2019.</p>
+                      </div>
+                      <!-- post__text -->
+                
+                      <div class="related">
+                         <h3 class="post__subtitle">Интересно почитать</h3>
+                
+                         <ul class="related__list">
+                            <li class="related__list-item">
+                               <h4 class="related__list-title">
+                                  <a href="#">Вечеринка компани FrontEnd Conf</a>
+                               </h4>
+                               <time class="related__list-date" datetime="2022-02-26 10.45">26.02.2022</time>
+                            </li>
+                
+                            <li class="related__list-item">
+                               <h4 class="related__list-title">
+                                  <a href="post.html">Как научиться правильно писать код?</a>
+                               </h4>
+                               <time class="related__list-date" datetime="2022-03-19 14.07">19.03.2022</time>
+                            </li>
+                
+                            <li class="related__list-item">
+                               <h4 class="related__list-title">
+                                  <a href="#">Windows 11 на старом ПК. Выживание на старом железе</a>
+                               </h4>
+                               <time class="related__list-date" datetime="2022-03-17 21.36">17.03.2022</time>
+                            </li>
+                
+                            <li class="related__list-item">
+                               <h4 class="related__list-title">
+                                  <a href="#">Хороший помощник для разработчиков</a>
+                               </h4>
+                               <time class="related__list-date" datetime="2022-02-14 18.16">14.02.2022</time>
+                            </li>
+                         </ul>
+                      </div>
+                      <!-- related -->
+                      
+                      <h3 class="post__subtitle">Обсуждение</h3>
+                
+                      <form class="form" action="/" method="post">
+                         <div class="form__group">
+                            <textarea class="form__control form__control--textarea" name="comments-text" placeholder="Текст комментария" data-autoresize></textarea>
+                            <span class="form__line"></span>
+                         </div>
+                         <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+                      </form>
+                      <!-- form -->
+                
+                      <ul class="comments">
+                         <li class="comments__item">
+                
+                            <div class="comments__header">
+                               <img class="comments__avatar" src="/assets/images/comments/author_2.jpg" alt="">
+                               <div class="comments__author">
+                                  <div class="comments__name">Даша Васильева</div>
+                                  <time class="comments__pubdate" datetime="2022-03-20 23.19">2 недели назад</time>
+                               </div>
+                            </div>
+                
+                            <div class="comments__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus omnis praesentium animi ipsam iusto pariatur voluptatibus. Cupiditate ab atque commodi, laudantium unde reprehenderit sed dolorum laboriosam ipsam! Et, fuga.</div>
+                            <button class="comments__reply" type="button">ответить</button>
+                
+                         </li>
+                
+                         <li class="comments__item">
+                      
+                            <div class="comments__header">
+                               <img class="comments__avatar" src="/assets/images/comments/author_3.jpg" alt="">
+                               <div class="comments__author">
+                                  <div class="comments__name">Евгений Пожинаев</div>
+                                  <time class="comments__pubdate" datetime="2022-03-20 19.16">3 недели назад</time>
+                               </div>
+                            </div>
+                
+                            <div class="comments__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id tempora illo ducimus aut sunt quos commodi quas? Officiis porro eos recusandae, iure quod placeat dicta, animi quo ut cum sint.</div>
+                            <button class="comments__reply" type="button">ответить</button>
+                            
+                         </li>
+                      </ul>
+                      <!-- comments -->
+                
+                   </div>
+                   <!-- post__content -->
+                </article>
+                <!-- Post -->
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="contact-modal">
+       <div class="modal__content modal__content--contact">
+    
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="Закрыть">
+          </button>
+    
+          <form class="form" action="/" method="post">
+             <div class="form__group form__group--md">
+                <input class="form__control" type="text" placeholder="Ваше имя">
+                <span class="form__line"></span> 
+             </div>
+          
+             <div class="form__group form__group--md">
+                <input class="form__control" type="email" placeholder="Ваш e-mail">
+                <span class="form__line"></span>
+             </div>      
+          
+             <div class="form__group form__group--md">
+                <textarea class="form__control form__control--textarea"  placeholder="Текст сообщения" name=""></textarea>
+                <span class="form__line"></span>
+             </div>
+          
+             <div class="form__footer">
+                <div class="form__group form__group--md">
+                   <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+                </div>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li>
+                e-mail: <a href="mailto:badsiren@gmail.com">badsiren@gmail.com</a>
+             </li>
+             <li>
+                тел: <a href="tel:+79191397404">+7919-139-74-04</a>
+             </li>
+          </ul>
+    
+       </div>
+       <!-- modal__content -->
+    </div>
+    <!-- modal -->    <div class="modal">
+       <div class="modal__content">
+    
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="Закрыть">
+          </button>
+    
+          <ul class="social">
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/facebook.svg" alt="">
+                </a>
+             </li>
+    
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/twitter.svg" alt="">
+                </a>
+             </li>
+    
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/vk.svg" alt="">
+                </a>
+             </li>
+    
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/copy.svg" alt="">
+                </a>
+             </li>
+          </ul>
+    
+    
+       </div>
+       <!-- modal__content -->
+    </div>
+    <!-- modal -->    <div class="modal" id="story-modal">
+       <div class="modal__content modal__content--story">
+          <video class="modal__video" src="" poster="assets/images/work_1.jpg"></video>
+       </div>
+    </div>
+    <!-- <footer>Footer</footer>
+  -->
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

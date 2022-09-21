@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Text about</title>
+</head>
+<body class="show-sidebar">
+<!-- <body class="no-scroll"> -->
+
+    <div class="page" id="page">
+        <!-- Header -->
+        <header class="header">
+        
+           <div class="header__left">
+              <nav class="nav">
+                 <ul class="nav__list">
+        
+                    <li class="nav__item">
+                       <a class="nav__link" href="index.html">Главная</a>
+                    </li>
+        
+                    <li class="nav__item">
+                       <a class="nav__link has-subnav" href="#">Статьи</a>
+        
+                       <ul class="subnav">
+                          <li>
+                             <a class="subnav__link" href="#">Создание сайтов</a>
+                          </li>
+                          <li>
+                             <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                          </li>   
+                          <li>
+                             <a class="subnav__link" href="#">Продвижение видео</a>
+                          </li>
+                       </ul>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="text_about.html">Обо мне</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="advertising.html">Реклама</a>
+                    </li>
+        
+                 </ul>
+              </nav>
+        
+              <button class="burger" type="button" id="sidebarToggle">
+                 <span>Открыть навигацию</span>
+              </button>
+           </div>
+        
+           <div class="header__right">
+              <nav class="nav">
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                       <a class="nav__link" href="profile.html">Профиль</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="#">Выйти</a>
+                    </li>
+                 </ul>
+              </nav>
+        
+              <form class="search" action="search.html" method="get">
+                 <input class="search__input" type="text" placeholder="Поиск по блогу">
+              </form>
+           </div>
+        
+        </header>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+           <div class="sidebar__header">
+              <img src="/assets/images/sidebar-header.jpg" alt="">
+           </div>
+           <div class="sidebar__content">
+              <div class="profile">
+                 <!-- <img class="profile__avatar" src="http://placehold.it/100x100" alt=""> -->
+                 <img class="profile__avatar" src="/assets/images/profile_avatar.jpg" alt="">
+                 <div class="profile__header">   
+                    <div class="profile__name">Дарья Васильева</div>
+                    <div class="profile__prof">блог front-end разработчика</div>
+                 </div>
+                 
+                 <ul class="social">
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank">
+                          <img src="/assets/images/social/instagram.svg" alt="Дарья Васильева Instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank">
+                          <img src="/assets/images/social/vk.svg" alt="Дарья Васильева vk">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank">
+                          <img src="/assets/images/social/telegram.svg" alt="Дарья Васильева telegram">
+                       </a>
+                    </li>
+                 </ul>
+        
+                 <div class="profile__text">
+                    <p>Front-end разработчик. Практик верстки сайтов. Созданием сайтов занимаюсь с 2019 года. Наработала более 5 000 часов в создании сайтов различной сложности.</p>
+                 </div>
+              </div>
+              <!-- profile -->
+        
+              <nav class="nav nav--mobile">
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                       <a class="nav__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link has-subnav" href="#">Статьи</a>
+                       <ul class="subnav">
+                          <li>
+                             <a class="subnav__link" href="#">Создание сайтов</a>
+                          </li>
+                          <li>
+                             <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                          </li>   
+                          <li>
+                             <a class="subnav__link" href="#">Продвижение видео</a>
+                          </li>
+                       </ul>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="text_about.html">Обо мне</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="advertising.html">Реклама</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="profile.html">Профиль</a>
+                    </li>
+                    <li class="nav__item">
+                       <a class="nav__link" href="#">Выйти</a>
+                    </li>
+                 </ul>
+              </nav>
+              <!-- nav nav--mobile -->
+              
+           </div>
+           <!-- sidebar__content -->
+           <div class="sidebar__footer">
+              <a class="btn btn--red" href="works.html">Мои работы</a>
+              <button class="btn btn--blue" type="button" data-modal="contact-modal">Написать мне</button>
+           </div>
+        </aside>
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                <article class="post">
+                   <div class="post__actions">
+                      <a href="index.html">вернуться назад</a>
+                      <a href="#">
+                         поделиться
+                         <img class="post__actions-icon" src="assets/images/post/share .svg" alt="поделиться">
+                      </a>
+                   </div>
+                   <div class="post__header post__header--open">
+                      <h2 class="post__title post__title--margbot0">Фронтендер - это верстальщик?</h2>
+                   </div>
+                
+                   <div class="post__content">
+                      <div class="post__text ">
+                         <h2>Кто такой frontend-разработчик и в чем отличия от программиста верстальщика?</h2>
+                         <p class="post__text">Верстальщик и frontend-программист – это 2 разных специалиста. Первый занимается только версткой по макету, полученному от веб-дизайнера. Он оформляет внешний вид страницы, создает ее структуру, блоки, элементы, отступы с помощью тегов – специальных символов на языке разметки HTML. А также он работает над стилем, цветом, шрифтом с использованием CSS.</p>
+                
+                         <p class="post__text">Функционал программиста гораздо шире – он пишет код, чтобы веб-страницы были динамичными. Опытный разработчик может самостоятельно и сверстать, и запрограммировать сайт. Верстальщику достаточно освоить графические редакторы, HTML, CSS и основы кроссбраузерной верстки. Фронтендер, помимо этого, знает Javascript, ООП, базы данных, HTTP/HTTPS.</p>
+                
+                         <p>
+                            <img src="assets/images/text_about.jpg" alt="">
+                         </p>
+                
+                         <h3>Что должен уметь фронтенд-разработчик</h3>
+                         <p class="post__text">Перечислим, какие знания и навыки должны быть у frontend-программиста:</p>
+                
+                         <ul class="post__ul">
+                            <li>Методологии верстки, HTML и CSS.</li>
+                            <li>Язык программирования Javascript.</li>
+                            <li>Библиотеки jQuery, React и фреймворки Vue, Angular</li>
+                            <li>Популярные CMS – WordPress, Битрикс, Modx и др.</li>
+                            <li>Система управления версиями Git и сервис GitHub.</li>
+                            <li>Общие представления о backend-разработке, базах данных и языке запросов.</li>
+                            <li>Навыки проектирования архитектуры веб-приложения.</li>
+                            <li>Photoshop для разделения на части макетов от веб-дизайнера.</li>
+                            <li>Основы UI/UX и юзабилити.</li>
+                            <li>Принципы кроссбраузерной и адаптивной верстки.</li>
+                            <li> Английский на уровне чтения технической документации.</li>
+                         </ul>
+                      </div>
+                      <!-- post__text -->
+                   </div>
+                   <!-- post__content -->
+                </article>
+                <!-- Post -->
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="contact-modal">
+       <div class="modal__content modal__content--contact">
+    
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="Закрыть">
+          </button>
+    
+          <form class="form" action="/" method="post">
+             <div class="form__group form__group--md">
+                <input class="form__control" type="text" placeholder="Ваше имя">
+                <span class="form__line"></span> 
+             </div>
+          
+             <div class="form__group form__group--md">
+                <input class="form__control" type="email" placeholder="Ваш e-mail">
+                <span class="form__line"></span>
+             </div>      
+          
+             <div class="form__group form__group--md">
+                <textarea class="form__control form__control--textarea"  placeholder="Текст сообщения" name=""></textarea>
+                <span class="form__line"></span>
+             </div>
+          
+             <div class="form__footer">
+                <div class="form__group form__group--md">
+                   <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+                </div>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li>
+                e-mail: <a href="mailto:badsiren@gmail.com">badsiren@gmail.com</a>
+             </li>
+             <li>
+                тел: <a href="tel:+79191397404">+7919-139-74-04</a>
+             </li>
+          </ul>
+    
+       </div>
+       <!-- modal__content -->
+    </div>
+    <!-- modal -->    <div class="modal">
+       <div class="modal__content">
+    
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="Закрыть">
+          </button>
+    
+          <ul class="social">
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/facebook.svg" alt="">
+                </a>
+             </li>
+    
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/twitter.svg" alt="">
+                </a>
+             </li>
+    
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/vk.svg" alt="">
+                </a>
+             </li>
+    
+             <li class="social__item">
+                <a class="social__link" href="#">
+                   <img src="/assets/images/share/copy.svg" alt="">
+                </a>
+             </li>
+          </ul>
+    
+    
+       </div>
+       <!-- modal__content -->
+    </div>
+    <!-- modal -->    <div class="modal" id="story-modal">
+       <div class="modal__content modal__content--story">
+          <video class="modal__video" src="" poster="assets/images/work_1.jpg"></video>
+       </div>
+    </div>
+    <!-- <footer>Footer</footer>
+  -->
+
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
